@@ -1,0 +1,39 @@
+site_name: ボイラープレート
+repo_name: kaito1002/mkdocs_boiler
+repo_url: https://github.com/kaito1002/mkdocs_boiler
+theme:
+    name: material
+    language: "ja"
+    feature:
+        tabs: true
+extra_css:
+    - "//fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
+    - "//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+    - "css/custom.css"
+
+markdown_extensions:
+    - admonition
+    - footnotes
+    - codehilite:
+          linenums: true
+          use_pygments: true
+          pygments_style: monokai
+    - fontawesome_markdown
+    - pymdownx.arithmatex
+    - pymdownx.betterem:
+          smart_enable: all
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.inlinehilite
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.tasklist:
+          custom_checkbox: true
+    - pymdownx.tabbed
+    - pymdownx.tilde
+
+extra:
+    search:
+        lang: "ja"
