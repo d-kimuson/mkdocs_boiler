@@ -16,4 +16,4 @@
 
 ドキュメントを追加するには, [Mkdocs](https://www.mkdocs.org) について簡単に理解する必要があります.
 
-次ページの [About Mkdocs](about_mkdocs.md) を参考にしてください.
+次ページの [About Mkdocs](about_mkdocs) を参考にしてください.
