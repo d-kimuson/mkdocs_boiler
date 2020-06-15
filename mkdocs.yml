@@ -17,6 +17,12 @@ extra_css:
     - "//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
     - "css/custom.css"
 
+nav:
+    - 概要: index.md
+    - "About Mkdocs": about_mkdocs.md
+    # - Dir:
+          # - "Title": dir/page.md
+
 markdown_extensions:
     - admonition
     - footnotes
